@@ -1,0 +1,17 @@
+body{
+    background-image: url(imagenes/kanto-map.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    /* background-image: para colocar la imagen
+    background-position: para que se vea en el centro 
+    background-repeat: que no se repita la imagen;
+    background-size: para que este de acuerdo al tamaño de la pantalla;
+    background-attachment: que se vea en toda la pantalla /* */
+}
+h1{
+    text-align: center;
+    color: white;
+}
