@@ -1,4 +1,4 @@
-body{
+.fondo1{
     background-image: url(imagenes/kanto-map.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -11,7 +11,240 @@ body{
     background-size: para que este de acuerdo al tamaño de la pantalla;
     background-attachment: que se vea en toda la pantalla /* */
 }
-h1{
+/* FONDO DE CINDAQUIL */
+.fondo2{
+    background-image: url(./pokemonspaginas/cindaquil/fondoo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* FONDO DE GENGAR */
+.fondo3{
+    background-image: url(./pokemonspaginas/gengar/fondogengar.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* FONDO DE MEW */
+.fondo4{
+    background-image: url(./pokemonspaginas/mew/fondomew.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo5{
+    background-image: url(./pokemonspaginas/rayquaza/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+}
+.lista{
+    color: black;
+}
+.paginaprincipal{
+    text-align: center;
+    color: white;
+    padding: 10px 80px 10px 10px;
+    border-radius: 10px;
+    width: 12%;
+    margin-left: 40%;
+    background: rgba(5,7, 12, 0.50);
+
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a {
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+.titulospaginas{
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
     color: white;
 }
+.titulorayquaza{
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: black;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    align-items: center; /* Alinea verticalmente al centro */
+    padding: 90px; /* Añade un espacio alrededor del contenedor */
+}
+
+.imagen1 {
+    width: 200px;
+    height: 200px;
+    margin-right: 50px; /* Añade 50px de margen a la derecha */
+    margin-left: 5%; /* Añade 25px de margen a la izquierda */
+
+}
+
+.imagen2 {
+    width: 350px;
+    height: 300px;
+    margin-left: 110px; /* Añade 25px de margen a la izquierda */
+    margin-right: 80px; /* Añade 25px de margen a la derecha */
+    
+}
+
+.imagen3 {
+    width: 350px;
+    height: 300px;
+} 
+
+.imagenmew{
+    width: 350px;
+    height: 300px;
+    margin-left: 450px; /* Añade 25px de margen a la izquierda */
+}
+.imagenrayquaza{
+    width: 390px;
+    height: 300px;
+    margin-left: 450px; /* Añade 25px de margen a la izquierda */
+}
+
+.textolado,.texto {
+    display: flex;
+    align-items: center;
+
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    margin-left: 1%;
+  }
+  /* Esto es del cindaquil boton */
+  .valorfuego {
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 5px;
+    }
+
+ /* Esto es del gengar boton */
+  .valorfantasma {
+        background-color: #b186e8;
+        padding: 5px 10px;
+        border-radius: 5px;
+
+    }
+    .valorfantasmaveneno {
+        background-color: #b19ad1;
+        padding: 5px 10px;
+        border-radius: 5px;  
+        margin-left: 1%;
+    }
+
+/* Esto es del mew boton */
+    .valormew {
+        background-color: #ff70ea;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+/* Esto es del rayquaza boton */
+    .valordragon{
+        background: linear-gradient(to bottom, #3593af 50%, hsl(16, 93%, 55%) 50%); /* Colores y punto de división */
+        text-align: center;
+        padding: 5px 10px;
+        border-radius: 5px;   
+    }
+    .valorvolador{
+        background: linear-gradient(to bottom, #5bc0de 50%, hsl(0, 0%, 60%) 50%); /* Colores y punto de división */
+        text-align: center;
+        padding: 5px 10px;
+        border-radius: 5px; 
+        margin-left: 1%;    
+    }
+
+.botoninicio {
+    text-align: center;
+    color: white;
+    padding: 10px 1% 10px 10px;
+    border-radius: 10px;
+    width: 9%;
+    margin-left: 43%;
+    background: red;
+    position: relative;
+}
+
+/* FONDO CINDAQUIL */
+.fondotexto{
+    width: 1180px; /* Ancho del cuadro */
+    height: 180px; /* Altura del cuadro */
+    background-color:bisque; /* Azul oscuro */
+    border: 8px solid rgb(240, 176, 39); /* Borde amarillo */
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Sombra */
+    position: relative;
+    margin-left: 2%;
+
+}
+/* FONDO GENGAR */
+
+.fondotexto1{
+    width: 1180px; /* Ancho del cuadro */
+    height: 180px; /* Altura del cuadro */
+    background-color:rgb(205, 196, 255); /* Azul oscuro */
+    border: 8px solid rgb(89, 34, 143); /* Borde amarillo */
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Sombra */
+    position: relative;
+    margin-left: 2%;
+
+}
+
+/* FONDO MEW */
+.fondotexto2{
+    width: 1180px; /* Ancho del cuadro */
+    height: 180px; /* Altura del cuadro */
+    background-color:rgb(255, 196, 239); /* Azul oscuro */
+    border: 8px solid rgb(164, 31, 120); /* Borde amarillo */
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Sombra */
+    position: relative;
+    margin-left: 2%;   
+}
+/* FONDO RAYQUAZA */
+.fondotexto3{
+    width: 1180px; /* Ancho del cuadro */
+    height: 180px; /* Altura del cuadro */
+    background-color:rgb(183, 183, 183); /* Azul oscuro */
+    border: 8px solid rgb(222, 236, 25); /* Borde amarillo */
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Sombra */
+    position: relative;
+    margin-left: 2%;   
+}
+.movimientoimagen{
+    width: 25px;
+    animation: mover 5s infinite alternate ease-in-out;
+  }
+  
+  @keyframes mover {
+    0% {
+      transform: translateX(30px);
+    }
+    100% {
+      transform: translateX(1200px);
+    }
+  }
